@@ -100,7 +100,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST"
 
 // Cod avion: LL000
 if (!preg_match('/^[A-Z]{2}[0-9]{3}$/', $CodAvion)) {
-    echo "<script>alert('Cod avion invalid! Format corect: LL000 (ex: AB123).'); window.history.back();</script>";
+    echo "<script>alert('Cod avion invalid!!!!! Format corect: LL000 (ex: AB123).'); window.history.back();</script>";
     exit;
 }
 
